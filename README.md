@@ -1,4 +1,4 @@
-# latihan-web-flask
+# latihan-web-laravel
 
 Silahkan buat webapp, atau fungsi menggunakan file dari repo ini.
 
