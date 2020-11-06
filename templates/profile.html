@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Jinja</title>
+    </head>
+    <body>
+        {% with pesan = get_flashed_messages() %}
+            {% if pesan %}
+                {% for message in pesan %}
+                    {{ message }}
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <hr>
+        
+        <h1>INI ADALAH HALAMAN PROFILE {{ nama }}</h1>
+        <br>
+        <a href="{{ url_for('logout') }}">Log Out</a>
+    </body>
+</html>

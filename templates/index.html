@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Jinja</title>
+    </head>
+    <body>
+        <h1>INI ADALAH INDEX QUE</h1>
+
+        {% if not search %}
+        <h2>Tidak ada yang dicari</h2>
+        {% else %}
+        <h2>kamu mencari {{ search }} dan {{ cari }}</h2>
+        {% endif %}
+
+        <br>
+        <a href="{{ url_for('jinja_html_login') }}">Login</a>
+    </body>
+</html>
