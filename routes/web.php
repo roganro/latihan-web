@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\GaleriController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/jalan', function () {
+    return view('arah');
+});
+
+Route::get('/galeri', [GaleriController::class, 'index']);
+Route::get('/galeri/2', 'App\Http\Controllers\GaleriController@show');
+Route::get('/artikel/{judul}', [GaleriController::class, 'dinamis']);
