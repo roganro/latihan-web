@@ -1,5 +1,13 @@
 # latihan-web-laravel
 
-Silahkan buat webapp, atau fungsi menggunakan file dari repo ini.
+## Bagian Pertama
 
-Bisa kalian fork ke repo masing-masing, clone ke repo local, atau membuat sub branch dari repo ini.
+### Route Laravel
+
+Didalam repository ini terdapat contoh routing secara statis dan dinamis, serta contoh file controller dan view untuk menampilkan hasil output.
+
+1. Mengenal routing dan views
+
+2. Mengenal controller
+
+3. Route dinamis
